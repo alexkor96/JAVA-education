@@ -17,6 +17,8 @@ public class Program4 {
 				line += (char)readingFromFile.read();
 			}
 
+			
+
 			System.out.println("\n\033[34m" + line + "\033[0m");
 
 		} catch (IOException e) {
